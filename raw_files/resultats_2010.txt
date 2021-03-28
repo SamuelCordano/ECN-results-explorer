@@ -1,4 +1,3 @@
-Par arrêté de la directrice générale du Centre national de gestion des praticiens hospitaliers et des personnels de direction de la fonction publique hospitalière en date du 20 octobre 2010, les internes en médecine, classés par ordre de mérite aux épreuves classantes nationales, sont affectés dans les subdivisions, par discipline et spécialité, au titre de l'année universitaire 2010-2011, comme suit :
 1 Mme Dufour (Clémence, Marie, Dominique), 22 septembre 1986, Pédiatrie à Lyon.
 2 M. Khalifa (Jonathan), 4 octobre 1986, Hématologie à Toulouse.
 3 Mme Bellesoeur (Audrey, Simone, Jeanne), 8 mars 1985, Oncologie à Paris.
@@ -36,7 +35,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 35 Mme Kernisant (Mélanie, Catherine), 1er mai 1986, Psychiatrie à Clermont-Ferrand.
 36 M. Garcia (Hugo), 28 juillet 1986, Néphrologie à Paris.
 37 Mme Lecouturier (Karen, Christine, Tatiana), 26 juillet 1985, Neurologie à Paris.
-38 Mme Castelain (Charlotte, Françoise), 16 octobre 1986, Endocrinologie, diabète, maladies métaboliques à Paris.
+38 Mme Castelain (Charlotte, Françoise), 16 octobre 1986, Endocrinologie diabète maladies métaboliques à Paris.
 39 Mme Queneherve (Lucille, Hélène), 21 janvier 1986, Gastro-entérologie et hépatologie à Nantes.
 40 M. Bague (Nicolas), 20 juin 1985, Chirurgie générale à Nantes.
 41 M. Colleter (Loïc), 18 février 1987, Radiodiagnostic et imagerie médicale à Paris.
@@ -74,7 +73,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 73 M. Penaud (Benjamin), 21 octobre 1986, Ophtalmologie à Paris.
 74 Mme Simonnet (Maréva, Marine), 23 février 1986, ORL et chirurgie cervico-faciale à Paris.
 75 M. Esteve (Emmanuel, Jonathan), 13 janvier 1986, Néphrologie à Paris.
-76 Mme Coestier (Bérengère, Margot), 11 février 1986, Endocrinologie, diabète, maladies métaboliques à Montpellier.
+76 Mme Coestier (Bérengère, Margot), 11 février 1986, Endocrinologie diabète maladies métaboliques à Montpellier.
 77 Mme Faivre (Coline), 25 mai 1986, Dermatologie et vénérologie à Lyon.
 78 M. Hadjadj (Jérôme), 22 juillet 1986, Médecine interne à Paris.
 79 M. Knafo (Steven, Raphaël), 22 octobre 1985, Neurochirurgie à Paris.
@@ -98,14 +97,14 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 97 Mme Tissot (Claire, Marguerite, Suzanne), 28 avril 1985, Pneumologie à Lyon.
 98 Mlle Mané (Valérie, Francine, Bernadette), 13 octobre 1986, Ophtalmologie à Paris.
 99 Mme Falque (Claire), 31 décembre 1986, Radiodiagnostic et imagerie médicale à Aix-Marseille.
-100 M. Thuillier (Philippe, Eugène Jean), 3 mai 1986, Endocrinologie, diabète, maladies métaboliques à Brest.
+100 M. Thuillier (Philippe, Eugène Jean), 3 mai 1986, Endocrinologie diabète maladies métaboliques à Brest.
 101 M. Bachelet (Jean-Thomas), 18 novembre 1985, Chirurgie générale à Lyon.
 102 Mme Picot (Audrey), 18 mars 1987, Gastro-entérologie et hépatologie à Grenoble.
 103 M. Caspar (Thibault), 27 juillet 1985, Cardiologie et maladies vasculaires à Strasbourg.
 104 Mme Machuron (Caroline, Marguerite, Armande), 30 juin 1986, Anesthésie-réanimation à Grenoble.
 105 M. Geffray (Arnaud, Guy), 23 avril 1985, Radiodiagnostic et imagerie médicale à Tours.
 106 Mme Germain (Florence, Corinne, Camille), 2 décembre 1986, Médecine nucléaire à Nice.
-107 Mme Mouly (Céline), 27 juin 1986, Endocrinologie, diabète, maladies métaboliques à Toulouse.
+107 Mme Mouly (Céline), 27 juin 1986, Endocrinologie diabète maladies métaboliques à Toulouse.
 108 M. Dally (Jean-Baptiste), 7 août 1985, Cardiologie et maladies vasculaires à Lille.
 109 M. Veyrat (Mathieu), 10 mai 1986, ORL et chirurgie cervico-faciale à Paris.
 110 Mme Maignien (Chloé, Marine, Angélique), 15 janvier 1987, Gynécologie-obstétrique à Paris.
@@ -128,7 +127,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 127 M. Uzzan (Mathieu), 6 août 1986, Gastro-entérologie et hépatologie à Paris.
 128 Mme Boucher (Sophie, Lucie), 25 mai 1986, Ophtalmologie à Lyon.
 129 Mme Gautheyrou (Laurène, Eléonore), 7 avril 1986, Pédiatrie à Montpellier.
-130 Mme Landau (Ester), 13 septembre 1986, Endocrinologie, diabète, maladies métaboliques à Paris.
+130 Mme Landau (Ester), 13 septembre 1986, Endocrinologie diabète maladies métaboliques à Paris.
 131 Mlle Jacquemont (Lola, Alexandra), 4 septembre 1986, Néphrologie à Nantes.
 132 M. Rompteaux (Pierre, Jean), 26 mai 1985, Gastro-entérologie et hépatologie à Paris.
 133 Mlle Villette (Claire), 10 avril 1986, Gynécologie-obstétrique à Paris.
@@ -240,7 +239,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 241 Mlle Gibert (Marie Sophie), 29 novembre 1985, Dermatologie et vénérologie à Paris.
 242 Mme El Bouazzaoui (Rim), 16 décembre 1986, Cardiologie et maladies vasculaires à Montpellier.
 243 M. Robert (Emeric), 12 avril 1986, Chirurgie générale à Strasbourg.
-244 M. Picard (Frédéric, Pierre), 5 mars 1986 à Chirurgie générale à Paris.
+244 M. Picard (Frédéric, Pierre), 5 mars 1986, Chirurgie générale à Paris.
 245 Mme Masse (Juliette, Pauline), 29 novembre 1986, Anesthésie-réanimation à Lille.
 246 Mlle Macher (Julie), 2 avril 1986, Pédiatrie à Nantes.
 247 Mlle Billiauws (Lore), 8 décembre 1986, Gastro-entérologie et hépatologie à Paris.
@@ -285,7 +284,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 286 Mme Darphin (Jennifer), 7 juillet 1985, Anesthésie-réanimation à Dijon.
 287 M. Hutt (Antoine, Jean, François), 14 août 1986, Radiodiagnostic et imagerie médicale à Lille.
 288 Mme Goublaire (Coppelia, Mathilde, Madeleine), 2 novembre 1986, Cardiologie et maladies vasculaires à Paris.
-289 Mme Paillard (Anaïs), 7 octobre 1985, Endocrinologie, diabète, maladies métaboliques à Rennes.
+289 Mme Paillard (Anaïs), 7 octobre 1985, Endocrinologie diabète maladies métaboliques à Rennes.
 290 M. Garros (Aurélien, Luc, Alain), 30 octobre 1986, Gastro-entérologie et hépatologie à Lyon.
 291 Mme Vanel (Noëmie, Catherine), 24 avril 1985, Pédiatrie à Paris.
 292 M. Granados (Loïc), 15 mai 1987, Ophtalmologie à Montpellier.
@@ -343,13 +342,13 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 344 M. Lassalle (Louis), 21 août 1986, Radiodiagnostic et imagerie médicale à Paris.
 345 M. Bonnet (Corentin), 15 décembre 1986, Anesthésie-réanimation à Paris.
 346 Mme Poquet (Camille, Juliette), 24 juillet 1986, Anesthésie-réanimation à Grenoble.
-347 M. Appert (Ludovic), 19 octobre 1986, Endocrinologie, diabète, maladies métaboliques à Lille.
-348 M. Clergeau (Antoine, Edouard, Bernard), 10 juillet 1987, Endocrinologie, diabète, maladies métaboliques à Caen.
+347 M. Appert (Ludovic), 19 octobre 1986, Endocrinologie diabète maladies métaboliques à Lille.
+348 M. Clergeau (Antoine, Edouard, Bernard), 10 juillet 1987, Endocrinologie diabète maladies métaboliques à Caen.
 349 Mme Imbeau (Léa, Line, Françoise), 18 janvier 1987, Ophtalmologie à Tours.
 350 Mme Maurus (Anne), 12 avril 1986, Neurologie à Rennes.
 351 Mme Laurent (Audrey, Marie), 20 février 1986, Pédiatrie à Lyon.
 352 Mme Jobard (Stéphanie), 27 novembre 1986, Médecine interne à Tours.
-353 Mme Smati (Sarra), 22 août 1986, Endocrinologie, diabète, maladies métaboliques à Nantes.
+353 Mme Smati (Sarra), 22 août 1986, Endocrinologie diabète maladies métaboliques à Nantes.
 354 M. Ly Cong Kieu (Boris), 3 septembre 1985, Neurologie à Lille.
 355 Mme Hochart (Véronique, Brigitte), 18 mars 1987, Radiodiagnostic et imagerie médicale à Lille.
 356 Mlle Decroocq (Justine), 3 décembre 1986, Hématologie à Paris.
@@ -358,7 +357,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 359 Mme Hochart (Anaïs), 19 mai 1986, Neurologie à Lille.
 361 M. Delfort (Flavien, Pierre, George), 6 février 1984, Médecine nucléaire à Montpellier.
 362 M. De Guillebon (Stanislas, Emmanuel), 31 décembre 1986, Anesthésie-réanimation à Bordeaux.
-363 Mlle Hauguel (Marie), 3 février 1985, Endocrinologie, diabète, maladies métaboliques à Paris.
+363 Mlle Hauguel (Marie), 3 février 1985, Endocrinologie diabète maladies métaboliques à Paris.
 364 Mme Cochereau (Delphine), 19 septembre 1983, Oncologie à Paris.
 365 M. Lejealle (Clément, Arthur), 16 décembre 1986, Gastro-entérologie et hépatologie à Paris.
 366 M. Jouve (Thomas), 22 janvier 1982, Néphrologie à Grenoble.
@@ -406,20 +405,20 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 408 M. Genson (Pierre-Yves), 26 avril 1986, Radiodiagnostic et imagerie médicale à Dijon.
 409 Mme May (Olivia), 9 décembre 1987, Néphrologie à Lille.
 410 M. Moreau (Pierre-Emmanuel), 12 juin 1985, Chirurgie générale à Paris.
-411 Mme Rochette (Claire, Marie), 11 février 1987, Endocrinologie, diabète, maladies métaboliques à Aix-Marseille.
-412 Mme Gailly (Emilie, Solène), 16 janvier 1987, Endocrinologie, diabète, maladies métaboliques à Rennes.
+411 Mme Rochette (Claire, Marie), 11 février 1987, Endocrinologie diabète maladies métaboliques à Aix-Marseille.
+412 Mme Gailly (Emilie, Solène), 16 janvier 1987, Endocrinologie diabète maladies métaboliques à Rennes.
 413 M. Oliver (Léopold), 28 mai 1986, Cardiologie et maladies vasculaires à Paris.
 414 Mme Dos Santos (Stéphanie), 28 janvier 1985, Rhumatologie à Paris.
 415 M. Jaillant (Romain, Frédéric), 8 février 1986, Santé publique à Paris.
 416 M. Gerphagnon (Pierre, Henri), 17 mars 1984, Anesthésie-réanimation à Lyon.
-417 Mlle Carlier (Aurélie), 17 décembre 1986, Endocrinologie, diabète, maladies métaboliques à Paris.
+417 Mlle Carlier (Aurélie), 17 décembre 1986, Endocrinologie diabète maladies métaboliques à Paris.
 418 Mme Guilloret (Anna), 26 août 1987, Médecine générale à Grenoble.
 419 Mme Marquet (Alicia, Florie), 14 novembre 1987, Médecine interne à Lyon.
 420 Mme Claustre (Johanna), 14 octobre 1986, Médecine interne à Grenoble.
 421 M. Rouffet (Alban, Benjamin, Philippe), 14 mars 1985, Chirurgie générale à Angers.
 422 Mme Agullo (Audrey, Axelle), 1er mai 1985, Cardiologie et maladies vasculaires à Montpellier.
 423 Mme Courault (Lucie, Léa), 31 mai 1986, Neurologie à Rennes.
-424 Mme Agosta (Claire), 6 mai 1986, Endocrinologie, diabète, maladies métaboliques à Grenoble.
+424 Mme Agosta (Claire), 6 mai 1986, Endocrinologie diabète maladies métaboliques à Grenoble.
 425 Mme Arbault (Anaïs), 4 juin 1986, Rhumatologie à Dijon.
 426 Mme Poitou (Anne-Laure, Simone, Micheline), 19 février 1987, Néphrologie à Rouen.
 427 M. Champagnac (Jean, Loïc, Martin), 17 mai 1986, Gastro-entérologie et hépatologie à Lyon.
@@ -443,7 +442,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 445 M. Fleck (Olivier), 18 août 1985, Ophtalmologie à Dijon.
 446 M. Etchepare (Nicolas, Denis, Joseph), 4 avril 1986, Gastro-entérologie et hépatologie à Nantes.
 447 Mme Landre (Céline, Gisèle), 23 juillet 1985, Ophtalmologie à Nice.
-448 M. Grenet (Guillaume, Jean), 17 janvier 1986, Endocrinologie, diabète, maladies métaboliques à Lyon.
+448 M. Grenet (Guillaume, Jean), 17 janvier 1986, Endocrinologie diabète maladies métaboliques à Lyon.
 449 M. De Tymowski (Christian), 20 janvier 1984, Anesthésie-réanimation à Paris.
 450 Mme Laurencin (Chloé, Dominique), 20 mars 1985, Neurologie à Lyon.
 451 Mlle Baux (Elisabeth, Geneviève), 17 février 1986, Médecine interne à Nancy.
@@ -474,11 +473,11 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 476 Mme Mahe (Julie, Monique), 18 avril 1986, Cardiologie et maladies vasculaires à Lyon.
 477 M. Grillot (Nicolas), 31 janvier 1985, Anesthésie-réanimation à Paris.
 478 Mme Van Den Hende (Kathleen), 24 janvier 1986, Pédiatrie à Montpellier.
-479 M. Kracht (Julien, Malte, Alexandre), 27 juillet 1986 à Cardiologie et maladies vasculaires à Rouen.
+479 M. Kracht (Julien, Malte, Alexandre), 27 juillet 1986, Cardiologie et maladies vasculaires à Rouen.
 480 M. Bassi (Jean-Baptiste, Dominique), 20 avril 1985, Médecine générale à Aix-Marseille.
 481 Mme Durieux (Emeline), 27 juillet 1986, Rhumatologie à Lyon.
 482 Mlle Nguyen Kim (Pauline), 18 septembre 1985, Ophtalmologie à Paris.
-483 Mme Morcrette (Emilie, Isabelle, Marie), 21 décembre 1985, Endocrinologie, diabète, maladies métaboliques à Montpellier.
+483 Mme Morcrette (Emilie, Isabelle, Marie), 21 décembre 1985, Endocrinologie diabète maladies métaboliques à Montpellier.
 484 M. Casabianca (Laurent), 7 juin 1986, Chirurgie générale à Paris.
 485 Mlle Rodaix (Camille), 14 janvier 1986, Chirurgie générale à Paris.
 486 M. Basile (Paul, Michel, Marie), 6 novembre 1986, Gastro-entérologie et hépatologie à Rouen.
@@ -492,12 +491,12 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 494 Mme Lacalm (Audrey), 16 octobre 1986, Radiodiagnostic et imagerie médicale à Lyon.
 495 Mlle Rotenberg (Deborah), 13 janvier 1986, Pédiatrie à Paris.
 496 M. Pichard (Stéphane), 2 décembre 1985, Cardiologie et maladies vasculaires à Paris.
-497 Mme Kharcha (Fatima), 18 novembre 1986, Endocrinologie, diabète, maladies métaboliques à Paris.
+497 Mme Kharcha (Fatima), 18 novembre 1986, Endocrinologie diabète maladies métaboliques à Paris.
 498 Mlle Druelles (Marion), 23 octobre 1982, Gynécologie-obstétrique à Rennes.
 499 Mme Rabian (Florence, Thérése), 24 avril 1986, Hématologie à Paris.
 500 Mme Fiot (Elodie), 28 août 1986, Pédiatrie à Paris.
 501 Mlle Frantz (Camélia), 3 novembre 1985, Rhumatologie à Paris.
-502 Mlle Parlant-Pinet (Lucile, Miranda, Elisabeth), 4 février 1987, Endocrinologie, diabète, maladies métaboliques à Lyon.
+502 Mlle Parlant-Pinet (Lucile, Miranda, Elisabeth), 4 février 1987, Endocrinologie diabète maladies métaboliques à Lyon.
 503 Mme Guillaume-Jugnot (Perrine), 7 décembre 1986, Médecine interne à Aix-Marseille.
 504 Mme Bocquillon (Lucie, Marie, Elise), 16 août 1986, Cardiologie et maladies vasculaires à Toulouse.
 505 M. Monfort (Jean Benoit), 30 septembre 1985, Dermatologie et vénérologie à Paris.
@@ -520,7 +519,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 522 Mlle Henry (Anne-Sophie), 4 novembre 1985, Chirurgie générale à Brest.
 523 Mme Le Gallo (Jeanne), 4 août 1987, Radiodiagnostic et imagerie médicale à Rennes.
 524 M. Herin (Edouard, Jean, Daniel), 8 août 1986, Radiodiagnostic et imagerie médicale à Paris.
-525 Mme Trinel (Clémentine), 7 février 1986, Endocrinologie, diabète, maladies métaboliques à Lille.
+525 Mme Trinel (Clémentine), 7 février 1986, Endocrinologie diabète maladies métaboliques à Lille.
 526 Mme Guerveno (Claire, Myriam, Gaëlle), 26 avril 1986, Médecine interne à Toulouse.
 527 M. Pencole (Mathieu, Joseph, Gilbert), 30 mai 1985, Anesthésie-réanimation à Montpellier.
 528 M. Krams (Thomas), 20 juin 1985, Rhumatologie à Toulouse.
@@ -659,7 +658,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 664 Mme Marandat (Sophie), 30 juillet 1986, Ophtalmologie à Aix-Marseille.
 665 Mlle Debras (Elodie, Nathalie), 1er mai 1986, Gynécologie-obstétrique à Paris.
 666 Mlle Pelletier (Marion), 2 avril 1985, Néphrologie à Aix-Marseille.
-667 Mme Liminet (Christelle), 6 juin 1985, Endocrinologie, diabète, maladies métaboliques à Lyon.
+667 Mme Liminet (Christelle), 6 juin 1985, Endocrinologie diabète maladies métaboliques à Lyon.
 668 M. Lamas (Henri), 28 mai 1987, Chirurgie générale à Paris.
 669 Mlle Satre Buisson (Léa), 19 juin 1986, Anesthésie-réanimation à Lille.
 670 M. Pare (Pierre-Yves, Joël), 7 août 1987, Médecine interne à Angers.
@@ -836,7 +835,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 842 Mme Bucau (Margot, Jeanne), 16 août 1987, Anatomie et cytologie pathologique à Paris.
 843 Mme Moulinas (Chloé), 18 juin 1986, Dermatologie et vénérologie à Strasbourg.
 844 Mlle Perouze (Claire, Charlotte), 18 mai 1987, Psychiatrie à Nantes.
-845 M. Sanchez (Manuel, Julien), 10 juin 1985, Endocrinologie, diabète, maladies métaboliques à Paris.
+845 M. Sanchez (Manuel, Julien), 10 juin 1985, Endocrinologie diabète maladies métaboliques à Paris.
 846 Mme Flatres (Christelle, Aurélie), 13 juillet 1986, Médecine générale à Brest.
 847 Mme Souvannanorath (Sarah), 17 mai 1985, Neurologie à Montpellier.
 848 Mme Bordage (Mathilde), 17 avril 1986, Médecine interne à Rouen.
@@ -847,7 +846,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 854 Mme Barzic (Audrey), 1er février 1985, Pédiatrie à Brest.
 855 Mme Thevenin (Anaïs), 8 décembre 1986, Ophtalmologie à Toulouse.
 856 Mlle Joalland (Fanny, Hélène), 28 mars 1986, Médecine interne à Caen.
-857 Mme Lethielleux (Gaëlle, Aude), 12 septembre 1987, Endocrinologie, diabète, maladies métaboliques à Paris.
+857 Mme Lethielleux (Gaëlle, Aude), 12 septembre 1987, Endocrinologie diabète maladies métaboliques à Paris.
 858 Mme Defaye (Mylène), 20 août 1986, Gastro-entérologie et hépatologie à Bordeaux.
 859 M. Heiblig (Maël, Charles, Edmond), 3 juillet 1985, Oncologie à Lyon.
 860 Mme Arramon-Tucoo (Noémie), 17 décembre 1985, Psychiatrie à Paris.
@@ -955,7 +954,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 963 Mme Salvado (Clémentine, Lucie), 1er mars 1986, Hématologie à Paris.
 964 Mme Nutz (Anaiz), 5 février 1984, Rhumatologie à Montpellier.
 965 M. Leroy (Henri Arthur), 17 octobre 1986, Neurochirurgie à Lille.
-966 M. Hodzic (Amir), 20 octobre 1984 à Cardiologie et maladies vasculaires à Caen.
+966 M. Hodzic (Amir), 20 octobre 1984, Cardiologie et maladies vasculaires à Caen.
 967 Mlle Hengy (Gabrielle), 1er février 1985, Médecine générale à Toulouse.
 968 M. Maigrat (Charles-Henry), 1er octobre 1986, Cardiologie et maladies vasculaires à Nancy.
 969 Mme Bernard-Decot (Cindy), 10 juillet 1984, Anatomie et cytologie pathologique à Montpellier.
@@ -982,7 +981,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 990 Mme Henin (Aurélia), 28 juillet 1986, Anesthésie-réanimation à Aix-Marseille.
 991 M. Motreul (Rémi), 6 novembre 1984, Anesthésie-réanimation à Nantes.
 992 Mme Fiegl (Lucia, Hannah, Lieselotte), 29 mars 1985, Psychiatrie à Limoges.
-993 Mme Le Marc'Hadour (Pauline), 20 janvier 1986, Endocrinologie, diabète, maladies métaboliques à Aix-Marseille.
+993 Mme Le Marc'Hadour (Pauline), 20 janvier 1986, Endocrinologie diabète maladies métaboliques à Aix-Marseille.
 994 Mme Monneur (Audrey, Eliane), 1er janvier 1987, Médecine générale à Aix-Marseille.
 995 Mme Jouin (Anaïs, Claudine, Isabelle), 24 septembre 1986, Oncologie à Lille.
 996 Mme Duflos (Claire, Manon), 17 janvier 1986, Médecine physique et de réadaptation à Montpellier.
@@ -1003,12 +1002,12 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 1011 M. Bourdais (Etienne, Alexandre), 13 mai 1987, Ophtalmologie à Tours.
 1012 Mme Burnier (Marion, Julie, Xochil), 18 juin 1986, Chirurgie générale à Lyon.
 1013 Mme Benureau (Aurélia, Leïla, Carine), 19 mai 1987, Pédiatrie à Montpellier.
-1014 Mme Basel (Olivia, Laurence, Céline), 10 mai 1986, Endocrinologie, diabète, maladies métaboliques à Montpellier.
+1014 Mme Basel (Olivia, Laurence, Céline), 10 mai 1986, Endocrinologie diabète maladies métaboliques à Montpellier.
 1015 Mme Bougeois (Céline), 15 juin 1984, Médecine générale à Paris.
 1016 M. Hamed (Sami, Amir), 10 juin 1986, Chirurgie générale à Aix-Marseille.
 1017 Mme Jaudeau (Anne-Charlotte, Valérie), 16 mars 1986, Radiodiagnostic et imagerie médicale à Tours.
 1018 M. Bordet (Julien), 6 juin 1986, Ophtalmologie à Reims.
-1019 Mme Le Guen (Anne-Sophie, Béatrice), 15 septembre 1986, Endocrinologie, diabète, maladies métaboliques à Angers.
+1019 Mme Le Guen (Anne-Sophie, Béatrice), 15 septembre 1986, Endocrinologie diabète maladies métaboliques à Angers.
 1020 Mme Pradelli (Johanna), 28 septembre 1985, Pneumologie à Nice.
 1021 Mlle Lacroix (Emilie), 10 décembre 1985, Psychiatrie à Paris.
 1022 Mme Pondrom (Morgane, Claire), 20 août 1986, Pédiatrie à Paris.
@@ -1022,7 +1021,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 1030 Mlle Torossian (Nouritza), 20 août 1985, Oncologie à Toulouse.
 1031 M. Labriffe (Matthieu), 13 septembre 1986, Radiodiagnostic et imagerie médicale à Angers.
 1032 Mme Pugnoud (Anne-Lise, Françoise, Michèle), 14 mai 1985, Médecine générale à Montpellier.
-1033 Mme Beauvy (Julie, Suzanne), 24 juin 1986, Endocrinologie, diabète, maladies métaboliques à Lyon.
+1033 Mme Beauvy (Julie, Suzanne), 24 juin 1986, Endocrinologie diabète maladies métaboliques à Lyon.
 1034 M. Pasquesoone (Charles, Aurélien), 8 avril 1986, Ophtalmologie à Lille.
 1035 Mlle Jouvin (Ingrid), 26 octobre 1984, Chirurgie générale à Paris.
 1036 M. Dujardin (Charles Marie), 8 août 1982, Médecine générale à Aix-Marseille.
@@ -1048,7 +1047,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 1057 Mme Morardet (Laëtitia, Nadège), 31 juillet 1986, Rhumatologie à Paris.
 1058 Mme Yeim (Sunthavy), 7 janvier 1987, Psychiatrie à Paris.
 1059 Mme Gindre (Héloïse, Isabelle, Marie), 7 avril 1985, Médecine interne à Saint-Etienne.
-1060 Mlle Chevelle (Claire), 30 avril 1986, Endocrinologie, diabète, maladies métaboliques à Grenoble.
+1060 Mlle Chevelle (Claire), 30 avril 1986, Endocrinologie diabète maladies métaboliques à Grenoble.
 1061 Mlle Cramaregeas (Sophie), 2 août 1985, Pédiatrie à Bordeaux.
 1062 Mme Perrein (Adeline), 28 novembre 1985, Anesthésie-réanimation à Nancy.
 1063 Mme Melenotte (Cléa), 20 février 1985, Pneumologie à Aix-Marseille.
@@ -1090,7 +1089,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 1099 Mme Lerhe (Barbara, Virginie, Delphine), 23 août 1985, Chirurgie générale à Toulouse.
 1100 M. Lesaffre (Xavier), 1er avril 1978, Médecine générale à Paris.
 1101 Mme Tulane (Claire), 16 septembre 1986, Cardiologie et maladies vasculaires à Saint-Etienne.
-1102 Mme Benomar (Kanza), 9 janvier 1985, Endocrinologie, diabète, maladies métaboliques à Lille.
+1102 Mme Benomar (Kanza), 9 janvier 1985, Endocrinologie diabète maladies métaboliques à Lille.
 1103 Mlle Vignoboul (Charlotte), 8 octobre 1986, Médecine générale à Toulouse.
 1104 Mme Champagne (Candice, Charlotte), 7 février 1987, ORL et chirurgie cervico-faciale à Paris.
 1105 M. Leon (Grégoire, Marien), 17 janvier 1986, Chirurgie générale à Nantes.
@@ -1131,7 +1130,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 1141 Mme Boghossian (Marie-Caroline, Anaïs), 31 octobre 1986, Anesthésie-réanimation à Aix-Marseille.
 1142 M. Salles (Gaultier), 24 février 1986, Chirurgie générale à Clermont-Ferrand.
 1143 Mme Ringle (Anne, Sophie), 21 mai 1986, Cardiologie et maladies vasculaires à Lille.
-1144 Mme Tavitian (Marguerite, Elise), 29 mars 1985, Endocrinologie, diabète, maladies métaboliques à Bordeaux.
+1144 Mme Tavitian (Marguerite, Elise), 29 mars 1985, Endocrinologie diabète maladies métaboliques à Bordeaux.
 1145 Mme Asselborn (Carole, Francette), 31 août 1985, Oncologie à Montpellier.
 1146 M. Angibault (Xavier), 19 septembre 1986, Psychiatrie à Tours.
 1147 Mme Reyssat (Claire, Marguerite), 3 mai 1986, Médecine générale à Caen.
@@ -1280,7 +1279,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 1294 Mme Gran (Célia), 22 juillet 1986, Chirurgie générale à Aix-Marseille.
 1296 M. Auvet (Adrien), 19 avril 1985, Anesthésie-réanimation à Tours.
 1297 M. Col (Florent, Pierre, Jean), 28 novembre 1984, Médecine générale à Lyon.
-1298 Mme Litke (Rachel, Renée), 10 juin 1984, Endocrinologie, diabète, maladies métaboliques à Lille.
+1298 Mme Litke (Rachel, Renée), 10 juin 1984, Endocrinologie diabète maladies métaboliques à Lille.
 1299 M. Monnier (Arsène, Gérard, Marcel), 7 novembre 1984, Cardiologie et maladies vasculaires à Reims.
 1301 Mme Morelli (Magdalena, Morgane), 10 mai 1985, Médecine générale à Montpellier.
 1302 M. Viana (Michel), 17 septembre 1986, Ophtalmologie à Rennes.
@@ -1360,7 +1359,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 1377 M. Foucher (Romain, Max, Edouard), 17 novembre 1985, Radiodiagnostic et imagerie médicale à Tours.
 1378 Mme Letard (Pascaline, Pauline, Marie), 7 janvier 1987, Génétique médicale à Paris.
 1379 Mme Rivier (Pauline, Emmanuelle), 12 septembre 1984, Chirurgie générale à Lyon.
-1380 Mme Nadin (Katia), 15 avril 1985, Endocrinologie, diabète, maladies métaboliques à Saint-Etienne.
+1380 Mme Nadin (Katia), 15 avril 1985, Endocrinologie diabète maladies métaboliques à Saint-Etienne.
 1381 Mme Monchet (Elodie, Renée), 20 octobre 1980, ORL et chirurgie cervico-faciale à Lille.
 1382 Mme Lasne (Audrey, Claire), 22 janvier 1985, ORL et chirurgie cervico-faciale à Caen.
 1383 M. Puymirat (Yan), 2 janvier 1986, Anesthésie-réanimation à Bordeaux.
@@ -1369,7 +1368,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 1386 Mme Pommeret (Fanny, Agnès), 15 juillet 1987, Oncologie à Bordeaux.
 1387 Mlle Fremon (Emilie, Marie), 5 juillet 1985, Médecine générale à Montpellier.
 1388 Mlle Stempak (Tatiana, Stanislawa), 16 septembre 1985, Gynécologie médicale à Paris.
-1389 Mlle Hugo (Marie), 19 décembre 1985, Endocrinologie, diabète, maladies métaboliques à Bordeaux.
+1389 Mlle Hugo (Marie), 19 décembre 1985, Endocrinologie diabète maladies métaboliques à Bordeaux.
 1390 Mme Gilquin (Nathalie), 27 octobre 1986, Anesthésie-réanimation à Lyon.
 1391 Mlle Schonheit (Claire), 28 novembre 1985, Médecine générale à Paris.
 1392 Mme Lefoulon (Audrey, Claude), 27 juin 1986, Cardiologie et maladies vasculaires à Strasbourg.
@@ -1378,7 +1377,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 1395 M. Jury (Frédérick), 29 mars 1986, Médecine générale à Grenoble.
 1396 M. Laborie (Guillaume), 20 mars 1986, Cardiologie et maladies vasculaires à Tours.
 1397 Mme Ricard (Emilie, Aurélie), 28 mai 1986, Rhumatologie à Limoges.
-1398 Mlle Alves (Eloïse), 29 janvier 1985, Endocrinologie, diabète, maladies métaboliques à Lille.
+1398 Mlle Alves (Eloïse), 29 janvier 1985, Endocrinologie diabète maladies métaboliques à Lille.
 1399 M. Levy (Gabriel, Jacob), 27 août 1984, Pédiatrie à Lille.
 1400 Mme Rousse (Déborah), 17 septembre 1985, Santé publique à Toulouse.
 1401 M. Suchon (Pierre), 9 juillet 1986, Biologie médicale à Aix-Marseille.
@@ -1487,7 +1486,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 1505 M. Dietrich (Natacha), 2 août 1985, Médecine générale à Grenoble.
 1506 Mme Frasconi (Cécilia), 18 juillet 1985, Chirurgie générale à Aix-Marseille.
 1507 Mme Picard (Sophie), 23 juin 1986, Médecine générale à Bordeaux.
-1508 Mlle Feigel (Barbara, Génia), 10 novembre 1986, Endocrinologie, diabète, maladies métaboliques à Nantes.
+1508 Mlle Feigel (Barbara, Génia), 10 novembre 1986, Endocrinologie diabète maladies métaboliques à Nantes.
 1509 M. Lavoignet (Charles-Eric), 4 juin 1986, Médecine générale à Strasbourg.
 1510 M. Medina-Ortiz (Frédéric), 17 juillet 1985, Médecine interne à Tours.
 1511 M. Henriot (Christophe, Bernard, Alexis), 27 mars 1985, Ophtalmologie à Besançon.
@@ -1544,13 +1543,13 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 1562 Mlle Danre (Agnès), 10 août 1986, Rhumatologie à Nice.
 1563 Mme Jeandet (Cécile, Sophie), 12 janvier 1985, Anesthésie-réanimation à Bordeaux.
 1564 Mme Rizzoli (Mélanie), 18 juillet 1985, ORL et chirurgie cervico-faciale à Montpellier.
-1565 Mlle Fraty (Mathilde, Amélie), 30 juillet 1985, Endocrinologie, diabète, maladies métaboliques à Poitiers.
+1565 Mlle Fraty (Mathilde, Amélie), 30 juillet 1985, Endocrinologie diabète maladies métaboliques à Poitiers.
 1566 Mlle Quirier-Leleu (Camille), 25 janvier 1986, Gastro-entérologie et hépatologie à Poitiers.
 1567 Mme Seniow (Marie, Emilie, Thérèse), 13 octobre 1985, Rhumatologie à Toulouse.
 1568 M. Delmas (François Xavier, Joseph, Marc), 21 avril 1985, Rhumatologie à Rouen.
 1569 M. Ouichka (Rémy), 22 avril 1985, Médecine nucléaire à Nancy.
 1570 M. Bertin (Helios), 21 novembre 1985, Chirurgie générale à Nantes.
-1571 Mme Niogret (Domitille, Elizabeth), 28 décembre 1986, Endocrinologie, diabète, maladies métaboliques à Angers.
+1571 Mme Niogret (Domitille, Elizabeth), 28 décembre 1986, Endocrinologie diabète maladies métaboliques à Angers.
 1572 Mme Bosch (Laëtitia), 7 juin 1986, Anesthésie-réanimation à Toulouse.
 1573 M. Sage (Pierre Yves), 27 mai 1985, Chirurgie générale à Grenoble.
 1574 M. Pineau (Guillaume), 18 janvier 1985, Anatomie et cytologie pathologique à Paris.
@@ -1730,7 +1729,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 1750 M. Debievre (Thibaud, Remi), 9 janvier 1987, Anesthésie-réanimation à Lille.
 1751 Mlle Villoing (Barbara, Diane), 26 février 1986, Médecine générale à Paris.
 1752 M. Broggi (Etienne, Guy), 8 mars 1984, Chirurgie générale à Tours.
-1753 Mme Kepenekian (Lori, Chloé), 14 janvier 1986, Endocrinologie, diabète, maladies métaboliques à Strasbourg.
+1753 Mme Kepenekian (Lori, Chloé), 14 janvier 1986, Endocrinologie diabète maladies métaboliques à Strasbourg.
 1755 Mme Caradec (Claire, Bénédicte, Ann), 7 juin 1985, Gynécologie-obstétrique à Rennes.
 1756 Mlle Le Petitcorps (Hélène), 16 septembre 1985, Médecine générale à Paris.
 1757 M. Desseaux (Antoine), 17 janvier 1987, Chirurgie générale à Brest.
@@ -1785,7 +1784,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 1806 Mme Lehn (Nathalie), 4 février 1985, Biologie médicale à Strasbourg.
 1807 M. Duclos (Gary, Jean, Louis), 18 décembre 1984, Anesthésie-réanimation à Aix-Marseille.
 1808 Mme Pinot (Juliette), 13 juillet 1985, Médecine générale à Paris.
-1809 Mlle Marty (Marie, Anne, Marguerite), 2 mars 1985, Endocrinologie, diabète, maladies métaboliques à Bordeaux.
+1809 Mlle Marty (Marie, Anne, Marguerite), 2 mars 1985, Endocrinologie diabète maladies métaboliques à Bordeaux.
 1810 M. Guibert (Julien, Pierre), 16 juillet 1986, Médecine générale à Angers.
 1811 Mme Dumanois (Lucile), 4 décembre 1985, Médecine générale à Aix-Marseille.
 1812 M. Boulay (Guillaume, Georges, Sarkis), 10 janvier 1985, Anesthésie-réanimation à Lyon.
@@ -1811,10 +1810,10 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 1832 Mme Demiri (Suela), 11 juin 1985, Anesthésie-réanimation à Paris.
 1833 M. Vrel (Vincent, Paul, André), 24 octobre 1985, Cardiologie et maladies vasculaires à Amiens.
 1834 Mme Lissonde (Floriane), 2 mars 1987, Anesthésie-réanimation à Nantes.
-1835 Mme Coppin (Mathilde, Séverine), 17 novembre 1986, Endocrinologie, diabète, maladies métaboliques à Amiens.
+1835 Mme Coppin (Mathilde, Séverine), 17 novembre 1986, Endocrinologie diabète maladies métaboliques à Amiens.
 1836 M. Elamrani (Mehdi), 18 juin 1984, Chirurgie générale à Lille.
 1837 Mme Marquet (Valentine), 19 mars 1987, Biologie médicale à Toulouse.
-1838 Mme Berjonneau (Clémence, Nicole, Marie), 28 décembre 1986, Endocrinologie, diabète, maladies métaboliques à Rouen.
+1838 Mme Berjonneau (Clémence, Nicole, Marie), 28 décembre 1986, Endocrinologie diabète maladies métaboliques à Rouen.
 1839 M. Schutze (Teddy), 16 décembre 1986, Médecine générale à Rennes.
 1840 M. Baldacci (Simon, Jacques), 5 mars 1985, Pneumologie à Lille.
 1841 Mme Kersale (Aude, Marie), 27 avril 1986, Néphrologie à Brest.
@@ -1858,8 +1857,8 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 1879 Mlle Lalau (Marion), 3 mai 1986, Médecine générale à Montpellier.
 1880 Mlle Coroir (Marine), 22 janvier 1986, Anesthésie-réanimation à Paris.
 1881 Mme Demir (Zeynep), 22 février 1984, Pédiatrie à Paris.
-1882 Mme Bernard (Céline, Martine), 14 mars 1985, Endocrinologie, diabète, maladies métaboliques à Nantes.
-1883 Mme Glasser (Laura), 26 novembre 1985, Endocrinologie, diabète, maladies métaboliques à Strasbourg.
+1882 Mme Bernard (Céline, Martine), 14 mars 1985, Endocrinologie diabète maladies métaboliques à Nantes.
+1883 Mme Glasser (Laura), 26 novembre 1985, Endocrinologie diabète maladies métaboliques à Strasbourg.
 1884 M. Ben Othman (Karim), 8 mars 1985, Chirurgie générale à Aix-Marseille.
 1885 Mme Cottereau (Aurélie, Thyda), 14 septembre 1986, Pneumologie à Lille.
 1886 M. Massoullie (Grégoire, Charles), 5 août 1986, Cardiologie et maladies vasculaires à Clermont-Ferrand.
@@ -1905,8 +1904,8 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 1929 M. Huertas (Andrés), 24 mars 1985, Oncologie à Nancy.
 1930 Mme Gallix (Delphine, Claire), 30 juillet 1984, Anesthésie-réanimation à Toulouse.
 1931 M. Soued (Mickaël, Joseph), 31 octobre 1987, Anesthésie-réanimation à Paris.
-1932 Mme Bruckler (Marie), 16 novembre 1986 Anesthésie-réanimation à Nantes.
-1933 Mme Khalifeh (Pamela), 22 mars 1986 Anesthésie-réanimation à Strasbourg.
+1932 Mme Bruckler (Marie), 16 novembre 1986, Anesthésie-réanimation à Nantes.
+1933 Mme Khalifeh (Pamela), 22 mars 1986, Anesthésie-réanimation à Strasbourg.
 1934 Mlle Benizri (Chloé, Suzanne), 26 janvier 1985, Psychiatrie à Paris.
 1935 Mme Pochelu (Sandra), 21 février 1986, Pédiatrie à Bordeaux.
 1936 M. Delarche (Antoine, Louis), 31 octobre 1985, Néphrologie à Toulouse.
@@ -1919,7 +1918,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 1943 Mme Traimond (Nora), 24 mars 1986, Pédiatrie en océan Indien.
 1944 Mme Villemain (Aurélie), 4 mai 1984, Pneumologie à Nancy.
 1945 Mme Bacus (Morgane), 1er avril 1986, Anesthésie-réanimation à Lille.
-1946 Mme Bons (Justine, Edith, Odile), 20 mai 1988, Endocrinologie, diabète, maladies métaboliques à Rouen.
+1946 Mme Bons (Justine, Edith, Odile), 20 mai 1988, Endocrinologie diabète maladies métaboliques à Rouen.
 1947 Mme Hecquet (Blandine), 10 juillet 1985, Gynécologie médicale à Bordeaux.
 1948 M. Briffa (Florent), 27 décembre 1985, Chirurgie générale à Lille.
 1949 Mme Marchand (Angélique), 2 décembre 1986, Dermatologie et vénérologie à Angers.
@@ -1956,7 +1955,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 1980 Mlle Aouidad (Aveline), 14 octobre 1985, Psychiatrie à Paris.
 1981 M. Bahuon (Jérôme, Loic), 11 octobre 1985, Radiodiagnostic et imagerie médicale à Brest.
 1982 Mme Filipe (Virginie), 2 juin 1983, Gastro-entérologie et hépatologie à Nancy.
-1983 Mme Ete (Cladie, Stéphanie), 6 septembre 1985, Endocrinologie, diabète, maladies métaboliques à Tours.
+1983 Mme Ete (Cladie, Stéphanie), 6 septembre 1985, Endocrinologie diabète maladies métaboliques à Tours.
 1984 M. Zipfel (Jonathan), 3 mai 1986, Radiodiagnostic et imagerie médicale à Besançon.
 1985 Mme Bazire (Sophie, Cathy, Emilie), 6 mai 1985, Gynécologie-obstétrique à Caen.
 1986 Mme Galland (Julie), 12 août 1986, Anesthésie-réanimation à Saint-Etienne.
@@ -2165,7 +2164,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 2191 Mlle Nave (Guillaume), 24 janvier 1985, Anesthésie-réanimation à Rouen.
 2192 Mlle Boufflerd (Lucile, Dany), 9 avril 1985, Médecine générale à Aix-Marseille.
 2193 M. Forget (Hugues, Pascal), 18 mars 1985, Médecine générale à Rennes.
-2194 Mme Gschwind (Marion, Antoinette, Paule), 31 août 1985, Endocrinologie, diabète, maladies métaboliques à Limoges.
+2194 Mme Gschwind (Marion, Antoinette, Paule), 31 août 1985, Endocrinologie diabète maladies métaboliques à Limoges.
 2195 Mme Nollace (Leslie), 24 juin 1986, Pédiatrie à Paris.
 2196 M. Bonnot (Pierre-Henri), 16 novembre 1986, Néphrologie à Dijon.
 2197 Mme Cailliez (Céline, Cécile, Yohanna), 18 avril 1985, Médecine générale à Montpellier.
@@ -2452,9 +2451,9 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 2489 Mme Lin (Stéphanie), 2 juillet 1984, Gynécologie-obstétrique à Grenoble.
 2490 Mme Belkhou (Anissa), 9 mars 1985, Chirurgie générale à Lille.
 2491 Mme Bouit (Camille, Eva), 22 décembre 1985, Gynécologie-obstétrique à Dijon.
-2492 Mme Humbert (Anne-Laure), 28 mai 1986, Endocrinologie, diabète, maladies métaboliques à Nancy.
+2492 Mme Humbert (Anne-Laure), 28 mai 1986, Endocrinologie diabète maladies métaboliques à Nancy.
 2493 Mme Wilhelm (Camille), 19 novembre 1985, Médecine générale à Strasbourg.
-2494 Mme Presle (Alexandra, Marie, Magdelena), 17 juin 1984, Endocrinologie, diabète, maladies métaboliques à Reims.
+2494 Mme Presle (Alexandra, Marie, Magdelena), 17 juin 1984, Endocrinologie diabète maladies métaboliques à Reims.
 2495 Mme Usieto-Dubois (Mathilde), 13 juillet 1986, Médecine générale à Dijon.
 2496 Mme Forzy (Aliette, Marie, Isabelle), 16 novembre 1986, Gynécologie médicale à Nantes.
 2497 Mlle Dutron (Marine), 21 juillet 1986, Médecine générale à Paris.
@@ -2519,7 +2518,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 2559 Mme Serre (Emilie), 7 janvier 1985, Gynécologie-obstétrique à Tours.
 2560 M. Blay (Christophe, Nicolas), 29 avril 1985, Oncologie à Rennes.
 2561 Mme Mercier (Emilie), 7 avril 1985, Médecine générale à Toulouse.
-2562 Mme Lafont (Mathilde, Marie), 8 juillet 1985, Endocrinologie, diabète, maladies métaboliques en océan Indien.
+2562 Mme Lafont (Mathilde, Marie), 8 juillet 1985, Endocrinologie diabète maladies métaboliques en océan Indien.
 2563 Mme Cyrta (Joanna), 1er mars 1985, Anatomie et cytologie pathologique à Paris.
 2565 M. Dupire (Loïc), 17 mars 1986, Médecine générale à Lille.
 2566 Mme Jorand (Elodie), 1er novembre 1985, Médecine générale à Aix-Marseille.
@@ -2613,7 +2612,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 2656 Mme Voisin (Fanny), 17 juin 1985, ORL et chirurgie cervico-faciale à Limoges.
 2657 M. Ambroise (Martin), 5 mars 1985, Chirurgie générale à Dijon.
 2658 Mlle Braz (Leslie), 31 mars 1985, Médecine générale à Paris.
-2659 Mme Bogenmann (Laura, Anne, Charlotte), 13 septembre 1986, Endocrinologie, diabète, maladies métaboliques à Clermont-Ferrand.
+2659 Mme Bogenmann (Laura, Anne, Charlotte), 13 septembre 1986, Endocrinologie diabète maladies métaboliques à Clermont-Ferrand.
 2660 Mme Francoual (Julie), 13 mars 1986, Chirurgie générale à Caen.
 2661 Mme De Almeida (Alice), 11 mars 1985, Médecine physique et de réadaptation à Bordeaux.
 2662 M. Nouicer (Hichem), 13 septembre 1984, Anesthésie-réanimation à Tours.
@@ -2640,7 +2639,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 2685 M. Feron (Matthieu, Franck, Marie), 3 mai 1983, Chirurgie générale à Caen.
 2686 Mme Poinsot (Emmanuelle), 20 octobre 1986, Chirurgie générale en océan Indien.
 2687 M. Belkhir (Farid), 23 janvier 1982, Oncologie à Amiens.
-2688 Mme Dumas (Claire, Isabelle, Marie), 27 septembre 1985, Endocrinologie, diabète, maladies métaboliques à Besançon.
+2688 Mme Dumas (Claire, Isabelle, Marie), 27 septembre 1985, Endocrinologie diabète maladies métaboliques à Besançon.
 2690 Mme Dognin (Suzanne), 15 avril 1986, Médecine générale à Nancy.
 2691 M. Lefant (Pierre-Yves), 21 septembre 1984, Chirurgie générale à Poitiers.
 2692 Mme Levy (Galya), 12 février 1986, Gynécologie-obstétrique à Reims.
@@ -2775,10 +2774,10 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 2828 M. Perallon (Romain), 18 janvier 1984, Anatomie et cytologie pathologique à Toulouse.
 2829 Mme Rasata (Julie), 10 octobre 1984, Anesthésie-réanimation à Amiens.
 2830 Mme Alech (Florie, Solange), 31 janvier 1985, Chirurgie générale aux Antilles-Guyane.
-2831 Mlle Barraud (Sara, Marie), 27 octobre 1984, Endocrinologie, diabète, maladies métaboliques à Reims.
+2831 Mlle Barraud (Sara, Marie), 27 octobre 1984, Endocrinologie diabète maladies métaboliques à Reims.
 2832 M. Girerd (Pierre, Florent), 7 décembre 1986, Psychiatrie à Aix-Marseille.
 2833 M. Rebollar (Yohann, Christian, Manuel), 12 juin 1985, Anesthésie-réanimation à Poitiers.
-2834 Mlle Zagdoun (Léonore), 17 juin 1985, Endocrinologie, diabète, maladies métaboliques à Nice.
+2834 Mlle Zagdoun (Léonore), 17 juin 1985, Endocrinologie diabète maladies métaboliques à Nice.
 2835 Mme Dubail (Hélène, Emmanuelle), 4 octobre 1984, Pédiatrie à Poitiers.
 2836 M. Sessiecq (Quentin), 16 mai 1987, Chirurgie générale à Bordeaux.
 2837 M. Narci (Clément, André, Henri), 21 novembre 1986, Biologie médicale à Lyon.
@@ -2807,7 +2806,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 2864 Mme Bonnigal (Alexandrine), 18 avril 1985, Médecine générale à Tours.
 2865 M. Maczynski (Alexandre), 6 décembre 1984, Chirurgie générale à Dijon.
 2866 M. Hustin (Charles, Antoine, Francis), 30 janvier 1985, Chirurgie générale à Amiens.
-2867 Mme Benoit (Ileana, Aude), 15 novembre 1986, Endocrinologie, diabète, maladies métaboliques à Amiens.
+2867 Mme Benoit (Ileana, Aude), 15 novembre 1986, Endocrinologie diabète maladies métaboliques à Amiens.
 2868 Mme Gallissot (Elise), 16 juillet 1986, Médecine générale à Nancy.
 2869 Mme Hernandez (Sandra), 17 avril 1985, Psychiatrie à Saint-Etienne.
 2870 M. Campidelli (Arnaud), 29 juin 1984, Hématologie à Nancy.
@@ -2829,7 +2828,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 2886 Mme Gillet-Caret (Eve, Marie), 28 mai 1985, Médecine générale à Aix-Marseille.
 2887 Mlle Camard (Jeanne, Nicole), 15 juin 1984, Médecine générale à Nantes.
 2888 Mme Henry De Villeneuve (Marie-Laëtitia, Simone), 26 avril 1985, Chirurgie générale à Nice.
-2889 Mme Nguyen (Amandine, Bich-Van), 11 décembre 1985, Endocrinologie, diabète, maladies métaboliques à Dijon.
+2889 Mme Nguyen (Amandine, Bich-Van), 11 décembre 1985, Endocrinologie diabète maladies métaboliques à Dijon.
 2890 M. Marx (Simon), 19 août 1984, Anesthésie-réanimation à Amiens.
 2891 Mme Paul (Mathilde, Louise, Marie), 6 octobre 1985, Médecine générale à Aix-Marseille.
 2892 Mme Sevrez (Chloé), 19 novembre 1982, Pédiatrie à Saint-Etienne.
@@ -3229,7 +3228,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 3318 Mme Roche (Anne, Hélène), 25 mars 1984, Pneumologie à Dijon.
 3319 Mme Genelle (Marlène), 15 novembre 1985, Médecine générale à Paris.
 3320 M. Simonin (Laurent, Pascal), 2 avril 1986, Anatomie et cytologie pathologique à Brest.
-3321 Mme Fourmont (Coralie, Emilie), 1er janvier 1984, Endocrinologie, diabète, maladies métaboliques à Dijon.
+3321 Mme Fourmont (Coralie, Emilie), 1er janvier 1984, Endocrinologie diabète maladies métaboliques à Dijon.
 3322 Mme Lozes (Elsa), 23 mai 1986, Pédiatrie à Limoges.
 3323 Mme Goullard (Laurène), 20 juin 1985, Médecine générale à Lille.
 3324 Mme Beringer (Juline, Eléonore), 11 novembre 1986, Médecine générale à Montpellier.
@@ -3295,7 +3294,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 3390 M. Babin (Nicolas, Thomas, Marie), 30 janvier 1987, Médecine générale à Bordeaux.
 3391 Mme Ngo (Hai Tien, Marie Laurence), 3 décembre 1983, Médecine générale à Montpellier.
 3394 M. Eyraud (Laurent), 19 juillet 1985, Médecine générale à Lyon.
-3395 Mme Anajjar (Imane), 11 mars 1986, Endocrinologie, diabète, maladies métaboliques à Besançon.
+3395 Mme Anajjar (Imane), 11 mars 1986, Endocrinologie diabète maladies métaboliques à Besançon.
 3396 Mlle Le Coustumier (Eve Marie), 5 décembre 1984, Pneumologie à Limoges.
 3397 M. Bigotte (Pierre-Emmanuel, Vincent), 21 août 1985, Médecine générale à Rennes.
 3398 Mme Dong (Yi), 23 décembre 1985, Médecine générale à Paris.
@@ -3565,7 +3564,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 3701 Mme Kittler (Isabelle, Henriette, Marie), 10 janvier 1984, Biologie médicale en océan Indien.
 3702 Mme Bonafe (Cynthia), 8 juillet 1982, Médecine générale à Bordeaux.
 3703 Mme Guillerm (Agnès, Marie, Odette), 21 septembre 1985, Médecine générale à Lyon.
-3705 M. Corvo (Loic), 1er novembre 1982, Endocrinologie, diabète, maladies métaboliques aux Antilles-Guyane.
+3705 M. Corvo (Loic), 1er novembre 1982, Endocrinologie diabète maladies métaboliques aux Antilles-Guyane.
 3708 M. Bataille (Laurent), 6 décembre 1985, Médecine générale à Nantes.
 3709 M. Faivre (Ronan, Sylvain), 23 juin 1985, Médecine générale à Angers.
 3710 Mme Bertinet (Emilie), 23 juin 1986, Médecine générale à Nancy.
@@ -3834,7 +3833,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 4015 M. Sakka (Mehdi), 4 octobre 1984, Biologie médicale à Nantes.
 4017 M. Habib (Raphaël), 16 octobre 1985, Médecine générale à Aix-Marseille.
 4018 Mme Cantero (Leslie, Brigitte), 23 juillet 1985, Médecine générale à Toulouse.
-4020 M. Pavlovsky (Thomas), 7 mai 1986, Médecine générale Auxantilles Guyane.
+4020 M. Pavlovsky (Thomas), 7 mai 1986, Médecine générale aux Antilles-Guyane.
 4022 Mme Seveque (Marie-Anne, Christine, Bénédicte), 26 mars 1985, Médecine générale à Paris.
 4024 Mme Soare (Silvia, Luiza), 6 mars 1981, Médecine générale à Aix-Marseille.
 4025 M. Ucan (Erdogan), 25 septembre 1983, Médecine générale à Paris.
@@ -4168,7 +4167,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 4407 Mme Peycelon (Deborah, Elodie), 8 janvier 1985, Médecine générale à Saint-Etienne.
 4408 M. Bouglon (Leonard), 19 janvier 1986, Biologie médicale à Clermont-Ferrand.
 4410 Mme Cordier (Anaïs, Marie-Madeleine, Carmen), 12 novembre 1986, Médecine générale à Rouen.
-4411 M. Waldmeyer (Joël, Jonathan), 12 janvier 1984, Médecine générale à, Médecine générale à Montpellier.
+4411 M. Waldmeyer (Joël, Jonathan), 12 janvier 1984, Médecine générale à Montpellier.
 4412 Mme Pham (Maryline, Kieu My), 5 septembre 1985, Médecine générale à Paris.
 4413 Mme Leboucher (Anne-Claire, Laurence, Valérie), 9 septembre 1985, Médecine générale à Rennes.
 4414 M. Clavel (Christophe), 21 janvier 1986, Médecine générale à Lyon.
@@ -4526,7 +4525,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 4837 Mme Cylinski (Chloé, Michèle, Madeleine), 22 août 1985, Médecine générale à Besançon.
 4838 M. Salles (Stanislas), 18 juin 1985, Médecine générale à Brest.
 4839 Mme Reinert (Carine), 20 décembre 1984, Médecine générale à Lyon.
-4840 Mme Azarkan (Noura), 10 juillet 1985, Médecine générale à NICE.
+4840 Mme Azarkan (Noura), 10 juillet 1985, Médecine générale à Nice.
 4841 M. Akhrif (Mehdi), 3 janvier 1986, Psychiatrie à Tours.
 4842 M. Gicquel (Matthieu, Cédric), 26 mars 1986, Médecine générale à Rennes.
 4843 Mme Attye (Marie, Chloé), 8 janvier 1987, Médecine générale à Amiens.
@@ -4931,7 +4930,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 5338 Mme Noel (Anne-Marie, Alexandra), 23 mai 1984, Médecine générale à Reims.
 5339 M. Beffara (Simon), 27 mai 1985, Médecine générale à Lille.
 5340 M. Boukhadra (Mohamed), 14 novembre 1982, Médecine générale à Saint-Etienne.
-5342 Mme Grimbert (Axelle), 21 décembre 1984, Médecine générale à Lille
+5342 Mme Grimbert (Axelle), 21 décembre 1984, Médecine générale à Lille.
 5343 Mme Guerry (Natacha, Michèle), 28 novembre 1981, Médecine générale aux Antilles-Guyane.
 5345 Mme Rouquier (Amandine), 30 avril 1986, Médecine générale à Clermont-Ferrand.
 5346 Mme Marous (Miguelle), 22 septembre 1984, Santé publique en océan Indien.
@@ -5215,7 +5214,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 5690 Mme Kurzenne (Marion), 15 mai 1982, Psychiatrie à Nancy.
 5691 Mme Chabaud (Aurore, Marguerite, Jeanne), 3 décembre 1984, Médecine générale à Clermont-Ferrand.
 5692 Mlle Hutie (Marie), 13 juin 1985, Médecine générale à Paris.
-5693 M. Marfaing (Florent), 20 août 1984, Médecine du travail à Lyon.
+5693 M. Marfaing (Florent), 20 août 1984, Médecine du Travail à Lyon.
 5694 Mme Bremaud (Caroline), 30 avril 1981, Médecine générale à Angers.
 5695 Mme Larregain Dit Larrain (Aurélie), 17 juillet 1984, Médecine générale à Bordeaux.
 5696 Mme Jannou (Virginie), 17 mai 1985, Médecine générale à Brest.
@@ -5513,7 +5512,7 @@ Par arrêté de la directrice générale du Centre national de gestion des prati
 6056 Mme Le Dauphin (Hermine, Francine) (nom d'usage Slaney), 24 octobre 1984, Médecine générale à Brest.
 6057 M. Simon (Antoine, Paul, Jean Marcel), 7 septembre 1984, Médecine générale à Angers.
 6059 Mme Srour (Micha), 18 décembre 1984, Médecine générale à Saint-Etienne.
-6060 Mme Rahmani (Soraya) (nom d'usage Mahoukou-Kimbembe 9 juillet 1984, Médecine générale à Caen.
+6060 Mme Rahmani (Soraya) (nom d'usage Mahoukou-Kimbembe), 9 juillet 1984, Médecine générale à Caen.
 6061 Mlle Besnard (Anne, Melinda), 22 février 1985, Médecine générale à Nantes.
 6062 Mme Doustin (Claire, Isabelle), 29 avril 1986, Médecine générale à Lille.
 6063 Mme Vigneux (Fanie, Sylviana), 5 juin 1986, Médecine générale à Amiens.
