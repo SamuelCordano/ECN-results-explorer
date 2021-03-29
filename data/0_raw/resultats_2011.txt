@@ -1304,7 +1304,7 @@
 1322 Mme Medam (Sophie), née le 20 avril 1987, anesthésie-réanimation à Aix-Marseille.
 1323 Mme Duraes (Martha, Viviana), née le 15 juillet 1987, gynécologie-obstétrique à Montpellier.
 1324 Mme Metrat (Stéphanie), née le 27 novembre 1987, endocrinologie, diabète, maladies métaboliques à Montpellier.
-1325 Mlle Marchand (Pauline), Castelnau-Marchand, née le 26 mars 1988, oncologie en Ile-de-France.
+1325 Mlle Marchand (Pauline), née le 26 mars 1988, oncologie en Ile-de-France.
 1326 M. Moulin (Paul), né le 28 décembre 1986, chirurgie générale en Ile-de-France.
 1327 Mlle Mancel (Ophélie), née le 6 février 1988, médecine générale à Lille.
 1328 M. Maze (Jean, Quentin), né le 7 novembre 1986, radiodiagnostic et imagerie médicale à Poitiers.
@@ -2488,7 +2488,7 @@
 2538 M. Barbier (Vincent), né le 20 mars 1986, chirurgie générale à Dijon.
 2539 M. Picaud (Olivier, Raymond, Louis), né le 25 juin 1987, chirurgie générale à Aix-Marseille.
 2540 Mme Aube (Marie, Rachel), née le 21 décembre 1986, rhumatologie à Rouen.
-2541 Mlle Devauchelle (Agathe), Agathe Devauchelle, née le 2 mai 1987, rhumatologie à Rouen.
+2541 Mlle Devauchelle (Agathe), née le 2 mai 1987, rhumatologie à Rouen.
 2542 Mme Castelli (Caroline, Marie), née le 25 janvier 1988, anesthésie-réanimation en Ile-de-France.
 2543 M. Monnot (Antoine, René), né le 16 novembre 1987, chirurgie générale à Rouen.
 2544 Mme Russo (Laetitia, Odette), née le 20 mars 1986, anatomie et cytologie pathologique à Besançon.
@@ -3000,7 +3000,6 @@
 3070 Mlle Madis (Sabine), née le 1er décembre 1987, anatomie et cytologie pathologique à Strasbourg.
 3071 Mlle Tourrier (Marie, Melanie), née le 17 avril 1987, chirurgie générale à Poitiers.
 3072 M. Kervarec (Nicolas, Henri), né le 6 mai 1985, anesthésie-réanimation à Clermont-Ferrand.
-3073 Mlle Roussille (Pauline), née le 8 juin 1987, gastro-entérologie et hépatologie à chirurgie plastique, reconstructrice et esthétique à Poitiers.
 3074 Mme Habri (Kamila, Sarah), née le 27 février 1985, anesthésie-réanimation à Tours.
 3075 M. Sautier (Etienne, François), né le 30 janvier 1986, chirurgie générale à Saint-Etienne.
 3076 Mlle Ginoyer (Hélène, Florence), née le 10 juin 1985, médecine générale à Aix-Marseille.
@@ -6848,7 +6847,7 @@
 7622 M. Hinkov (Kamen Hristov), né le 4 juillet 1985, médecine générale à Besançon.
 7623 M. Bernabeu (Nicolas), né le 30 mai 1985, santé publique à Aix-Marseille.
 7624 Mlle Gherman (Emilia, Angela), née le 12 août 1984, médecine générale à Lyon.
-7625 M. Barbel (Yves), né le 10 septebre 1980 médecine générale à Nancy.
+7625 M. Barbel (Yves), né le 10 septembre 1980, médecine générale à Nancy.
 7626 M. Rolin (Pierre Antoine), né le 3 juillet 1986, médecine générale à Lille.
 7631 M. Michalakis (Géorgios), né le 25 mai 1967, médecine générale à Tours.
 7632 Mme Pelé (Patricia, Julie, Lucienne), épouse Paglia, née le 29 mai 1986, médecine générale à Nancy.

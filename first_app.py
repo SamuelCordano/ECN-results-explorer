@@ -7,17 +7,17 @@ import utilities
 import matplotlib
 import matplotlib.pyplot as plt
 
-st.title('My first app')
-
-df = pd.read_csv('raw_files/resultats_2010.txt', header=None, delimiter = "\t",names=["raw_data"])
-
-st.write(utilities.clean_2010_11_data_v2(df_head5,2010))
+st.title('ECN Results Analysis')
 
 
-#df_final = utilities.clean_2010_11_data(df_test)
-#st.write(df_final)
-#df_final.to_csv('trd_files/trd_resultats_2010_11.csv', index=True)  
+#Step 1- Make sure Input file is good 
+df = utilities.find_unclean_input(2017)
 
+#Step 2 Save File
+#df = utilities.raw_to_cleaned(2017)
+
+
+st.write(df)
 
 
 #Part 2 - Use CSV

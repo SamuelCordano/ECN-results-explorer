@@ -10,28 +10,6 @@ import utilities
 #num_rows = df.shape[0]
 #df_final = pd.DataFrame(columns=['title', 'lastName', 'firstNames','dateOfBirth','spécialité','ville'])
 
-def find_unclean_input(df):
-
-    for index, row in df.iterrows():
-
-        
-        #st.write(row)
-        row_frame = row.to_frame()
-        row_string = row_frame.to_string()
-        row_string = row_string.strip()
-
-        if ") (" in row_string:
-            continue
-
-        row_decomposed_2 = row_string.split(')')[1]
-
-        countCommas = row_decomposed_2.count('à')
-        countCommas2 = row_decomposed_2.count(' aux ')
-        countCommas3 = row_decomposed_2.count(' en ')
-        if (countCommas+countCommas2+countCommas3) != 1:
-            st.write(row_decomposed_2)
-            st.write(index)
-
 def clean_2010_11_data_v2(df,annee):
 
     #df_final = pd.DataFrame(columns=['classement','title', 'lastName', 'firstNames','dateOfBirth','specialite','ville'])
@@ -75,66 +53,93 @@ def clean_2010_11_data_v2(df,annee):
 
     return df_final
 
+def clean_data(df,annee):
 
-def clean_2010_11_data(df):
+    df_final = pd.DataFrame(columns=['classement','title', 'firstNames','dateOfBirth','specialite','ville','annee'])
 
-    df_final = pd.DataFrame(columns=['classement','title', 'lastName', 'firstNames','dateOfBirth','specialite','ville'])
+    #Clean_data - delete mentions with "nom d'usage"
+    # Example: 2005 M. Descoux (Jérémy), nom d'usage : Descoux-Frias,
+    df["raw_data"]= df.raw_data.str.replace("\), nom d'usage .*?,", "),", regex=True)
 
-    for index, row in df.iterrows():
-        st.write(row)
-        st.write(type(row))
+    #Clean_data - delete mentions with "épouse"
+    # Example: 878 Mme Dufour (Ségolène, Marie), épouse Pueyo, née le 29 décembre 1986, médecine générale à Rouen.
+    df["raw_data"]= df.raw_data.str.replace("\), épouse .*?,", "),", regex=True)
 
-        row_string_direct = row.to_string()
-        st.write(row_string_direct)
-        st.write(type(row_string_direct))
+    df["raw_data"]= df.raw_data.str.replace("\), époux .*?,", "),", regex=True)
+    df["raw_data"]= df.raw_data.str.replace("\), famille .*?,", "),", regex=True)
 
-        row_frame = row.to_frame()
-        st.write(row_frame)
-        st.write(type(row_frame))
-        
-        row_string = row_frame.to_string()
-        st.write(row_string)
-        st.write(type(row_string))
-        row_string = row_string.strip()
-        st.write(row_string)
+    #Clean data: enlever les virgules de la spécialité: endocrinologie, diabète, maladies métaboliques
+    df["raw_data"]= df.raw_data.str.replace("endocrinologie, diabète, maladies métaboliques", "endocrinologie diabète maladies métaboliques", regex=True)
 
-        if ") (" in row_string:
-            #row_string = re.sub(') (.*?)', '', row_string)
-            continue
 
-        #st.write(row_string)
-        #st.write(row_frame)
-        #st.write(row_frame_string)
-        row_decomposed = row_string.split(' ')
-        #st.write(row_decomposed)
-
-        #Step 1: Classement, Title
-        row_classement = row_decomposed[2]
-        row_title =row_decomposed[3]
-
-        #Step 1.b: Last Name
-        row_lastName = row_string.split('(')[0]
-        row_lastName = row_lastName.split(row_title)[1]
-
-        #Step 2: First Names
-        row_decomposed_2 = row_string.split(')')[0]
-        row_firstNames = row_decomposed_2.split('(')[1]
-
-        #Step 3: Date of Birth
-        row_decomposed_3 = row_string.split(')')[1]
-        row_dateOfBirth = row_decomposed_3.split(',')[1]
-
-        #Step 4: Specialite and Ville
-        row_decomposed_3 = row_string.split(')')[1]
-        st.write(row_decomposed_3)
-        row_decomposed_4 = row_decomposed_3.split(',')[2]
-        row_specialite = re.split(' à | aux | en ',row_decomposed_4)[0]
-        row_ville = re.split(' à | aux | en ',row_decomposed_3)[1]
-
-        df_final.loc[index] = [row_classement,row_title,row_lastName,row_firstNames,row_dateOfBirth,row_specialite,row_ville]
+    #Step 1: Classement, Title, Last Name
+    df_final["classement"]= df.raw_data.str.split(" ").str[0]
+    df_final["title"]= df.raw_data.str.split(" ").str[1]
     
+    ### WIP 
+    #Step 2: Last Name
+    #df_final["lastName"]= df.raw_data.str.split("(").str[0]
+    #df_final["lastName"]= df_final["lastName"].str.split(" ").str[2:]
+    #df_final["lastName"]= df_final["lastName"].str.split(df_final["title"]).str[1]
+    #df_final["lastName"]= df_final["lastName"].str.cat(df_final["lastName"])
+
+    #Step 3: First Names
+    df_final["firstNames"]= df.raw_data.str.split(")").str[0]
+    df_final["firstNames"]= df_final["firstNames"].str.split("(").str[1]
+
+    #Step 4: Date of Birth
+    df_final["dateOfBirth"]= df.raw_data.str.split(")").str[1]
+    df_final["dateOfBirth"]= df_final["dateOfBirth"].str.split(", ").str[1]
+
+    #Step 5: Specialite and Ville
+    df_final["specialite"]= df.raw_data.str.split(")").str[1]
+    df_final["specialite"]= df_final["specialite"].str.split(",").str[2]
+    
+    if annee > 2016:
+        df_final[['specialite','ville']] = df_final['specialite'].str.split(' à | aux | en | au ',expand=True)
+    else:
+        df_final[['specialite','ville']] = df_final['specialite'].str.split(' à | aux | en ',expand=True)
+
+    df_final["ville"]= df_final["ville"].str.rstrip(".")
+
+    df_final["annee"]= annee
+
+    #st.write(df_final.dtypes)
+
     return df_final
 
+
+def find_unclean_input(annee):
+    df = pd.read_csv(f'data/0_raw/resultats_{annee}.txt', header=None, delimiter = "\t",names=["raw_data"])
+    
+    if annee > 2016:
+        df_check = df[df.raw_data.str.count(' à | aux | en | au ') !=1]
+    else:
+        df_check = df[df.raw_data.str.count(' à | aux | en ') !=1]
+
+    if len(df_check.index) != 0:
+        st.write("Hey it seems there is at least one row with multiple instances of à | aux | en  -- Deal with it before moving on ;)")
+        st.write(df_check)
+
+    df = clean_data(df,annee)
+
+    st.write("Liste des villes")
+    st.write(df.ville.unique())
+    st.write("Liste des candidats où la ville est vide: ")
+    st.write(df[df["ville"].isnull()]) 
+
+    st.write("Liste des spécialités")
+    st.write(df.specialite.unique())
+    st.write("List des candidats où la spécialité est vide: ")
+    st.write(df[df["specialite"].isnull()]) 
+    
+    return df
+
+def raw_to_cleaned(annee):
+    df = pd.read_csv(f'data/0_raw/resultats_{annee}.txt', header=None, delimiter = "\t",names=["raw_data"])
+    df = clean_data(df,annee)
+    df.to_csv(f'data/1_cleaned/resultats_{annee}_clean.csv', index=True)
+    return df
 
 def create_df_lastest_spot(df):
     villes_list = sorted(df.ville.unique().tolist())
