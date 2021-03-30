@@ -54,10 +54,14 @@ def clean_2010_11_data_v2(df,annee):
     return df_final
 
 def clean_data(df,annee):
-
-    df_final = pd.DataFrame(columns=['classement','title', 'firstNames','dateOfBirth','specialite','ville','annee'])
+    if annee < 2019:
+        df_final = pd.DataFrame(columns=['classement','title', 'firstNames','dateOfBirth','specialite','ville','annee'])
+    elif annee >= 2019:
+        df_final = pd.DataFrame(columns=['classement','title', 'firstNames','specialite','ville','annee'])
 
     #Clean_data - delete mentions with "nom d'usage"
+    #df= df.raw_data.str.replace("\) \(.*?\)", ")", regex=True)
+    df["raw_data"]= df.raw_data.str.replace("\) \(.*?\)", ")", regex=True)
     # Example: 2005 M. Descoux (Jérémy), nom d'usage : Descoux-Frias,
     df["raw_data"]= df.raw_data.str.replace("\), nom d'usage .*?,", "),", regex=True)
 
@@ -70,6 +74,11 @@ def clean_data(df,annee):
 
     #Clean data: enlever les virgules de la spécialité: endocrinologie, diabète, maladies métaboliques
     df["raw_data"]= df.raw_data.str.replace("endocrinologie, diabète, maladies métaboliques", "endocrinologie diabète maladies métaboliques", regex=True)
+
+    # pour 2017 et après: médecine et santé au travail -> médecine du travail
+    #Pour 2017 et après: chirurgie plastique, reconstructrice et esthétique -> chirurgie plastique reconstructrice et esthétique
+    df["raw_data"]= df.raw_data.str.replace("médecine et santé au travail", "médecine du travail", regex=True)
+    df["raw_data"]= df.raw_data.str.replace("chirurgie plastique, reconstructrice et esthétique", "chirurgie plastique reconstructrice et esthétique", regex=True)
 
 
     #Step 1: Classement, Title, Last Name
@@ -87,31 +96,49 @@ def clean_data(df,annee):
     df_final["firstNames"]= df.raw_data.str.split(")").str[0]
     df_final["firstNames"]= df_final["firstNames"].str.split("(").str[1]
 
-    #Step 4: Date of Birth
-    df_final["dateOfBirth"]= df.raw_data.str.split(")").str[1]
-    df_final["dateOfBirth"]= df_final["dateOfBirth"].str.split(", ").str[1]
+    if annee < 2019:
+        #Step 4: Date of Birth
+        df_final["dateOfBirth"]= df.raw_data.str.split(")").str[1]
+        df_final["dateOfBirth"]= df_final["dateOfBirth"].str.split(", ").str[1]
 
-    #Step 5: Specialite and Ville
-    df_final["specialite"]= df.raw_data.str.split(")").str[1]
-    df_final["specialite"]= df_final["specialite"].str.split(",").str[2]
+        #Step 5: Specialite and Ville
+        df_final["specialite"]= df.raw_data.str.split(")").str[1]
+        df_final["specialite"]= df_final["specialite"].str.split(",").str[2]
+    elif annee >= 2019:
+        #Step 4: No Data of Birth 
+
+        #Step 5: Specialite and Ville
+        df_final["specialite"]= df.raw_data.str.split(")").str[1]
+        df_final["specialite"]= df_final["specialite"].str.split(",").str[1]
     
     if annee > 2016:
-        df_final[['specialite','ville']] = df_final['specialite'].str.split(' à | aux | en | au ',expand=True)
+        df_final[['specialite','ville']] = df_final['specialite'].str.split(' à | aux | en | au ',n=1,expand=True)
     else:
-        df_final[['specialite','ville']] = df_final['specialite'].str.split(' à | aux | en ',expand=True)
+        df_final[['specialite','ville']] = df_final['specialite'].str.split(' à | aux | en ',n=1,expand=True)
+    
+    #Step 5.B: clean Specialite and Ville
+    df_final["specialite"]= df_final["specialite"].str.lower()
 
     df_final["ville"]= df_final["ville"].str.rstrip(".")
+    df_final["ville"]= df_final.ville.str.replace("CHU d('|e )|Hospices Civils de |l'Assistance Publique(-| des )Hôpitaux de ", "", regex=True)
+    df_final["ville"]= df_final.ville.str.replace("(o|O)céan( |-)|la Réunion", "La Réunion", regex=True)
+    df_final["ville"]= df_final.ville.str.replace("Ile-de-France|l'AP-HP", "Paris", regex=True)
+    df_final["ville"]= df_final.ville.str.replace("Aix-Marseille|l'AP-HM", "Marseille", regex=True)
+    df_final["ville"]= df_final.ville.str.replace("(l|L)a Martinique(| )/(| )Pointe-à-Pitre|Antilles-Guyane", "Martinique/Pointe-à-Pitre", regex=True)
+    df_final= df_final.replace({'ville': {"HCL": "Lyon"}})
 
+
+    #Step 6: Annee
     df_final["annee"]= annee
 
-    #st.write(df_final.dtypes)
 
     return df_final
 
 
-def find_unclean_input(annee):
+
+def find_unclean_input(annee): 
     df = pd.read_csv(f'data/0_raw/resultats_{annee}.txt', header=None, delimiter = "\t",names=["raw_data"])
-    
+
     if annee > 2016:
         df_check = df[df.raw_data.str.count(' à | aux | en | au ') !=1]
     else:
