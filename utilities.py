@@ -10,48 +10,7 @@ import utilities
 #num_rows = df.shape[0]
 #df_final = pd.DataFrame(columns=['title', 'lastName', 'firstNames','dateOfBirth','spécialité','ville'])
 
-def clean_2010_11_data_v2(df,annee):
 
-    #df_final = pd.DataFrame(columns=['classement','title', 'lastName', 'firstNames','dateOfBirth','specialite','ville'])
-    df_final = pd.DataFrame(columns=['classement','title', 'firstNames','dateOfBirth','specialite','ville','annee'])
-
-    #Clean_data - delete mentions with "nom d'usage"
-    #df= df.raw_data.str.replace("\) \(.*?\)", ")", regex=True)
-    df["raw_data"]= df.raw_data.str.replace("\) \(.*?\)", ")", regex=True)
-
-
-    #Step 1: Classement, Title, Last Name
-    df_final["classement"]= df.raw_data.str.split(" ").str[0]
-    df_final["title"]= df.raw_data.str.split(" ").str[1]
-    
-    ### WIP 
-    #Step 2: Last Name
-    #df_final["lastName"]= df.raw_data.str.split("(").str[0]
-    #df_final["lastName"]= df_final["lastName"].str.split(" ").str[2:]
-    #df_final["lastName"]= df_final["lastName"].str.split(df_final["title"]).str[1]
-    #df_final["lastName"]= df_final["lastName"].str.cat(df_final["lastName"])
-
-    #Step 3: First Names
-    df_final["firstNames"]= df.raw_data.str.split(")").str[0]
-    df_final["firstNames"]= df_final["firstNames"].str.split("(").str[1]
-
-    #Step 4: Date of Birth
-    df_final["dateOfBirth"]= df.raw_data.str.split(")").str[1]
-    df_final["dateOfBirth"]= df_final["dateOfBirth"].str.split(", ").str[1]
-
-    #Step 5: Specialite and Ville
-    df_final["specialite"]= df.raw_data.str.split(")").str[1]
-    df_final["specialite"]= df_final["specialite"].str.split(",").str[2]
-    #df_final["specialite"]= df_final["specialite"].str.split(" à | aux | en ").str[0]
-    df_final[['specialite','ville']] = df_final['specialite'].str.split(' à | aux | en ',expand=True)
-
-    df_final["ville"]= df_final["ville"].str.rstrip(".")
-
-    df_final["annee"]= annee
-
-    #st.write(df_final.dtypes)
-
-    return df_final
 
 def clean_data(df,annee):
     if annee < 2019:
@@ -134,8 +93,6 @@ def clean_data(df,annee):
 
     return df_final
 
-
-
 def find_unclean_input(annee): 
     df = pd.read_csv(f'data/0_raw/resultats_{annee}.txt', header=None, delimiter = "\t",names=["raw_data"])
 
@@ -178,6 +135,53 @@ def create_df_lastest_spot(df):
         df_results.at[row["specialite"], row["ville"]] =row["classement"]
 
     return df_results
+
+
+def cleaned_to_aggregates_latest_spot():
+    df_final = pd.DataFrame(columns=['classement','specialite','ville','annee'])
+    list_of_years = range(2010,2021)
+    #list_of_years = range(2010,2013)
+
+    for year in list_of_years:
+        df_year = pd.read_csv(f'data/1_cleaned/resultats_{year}_clean.csv', index_col=0)
+        df_year = df_year[['classement','specialite','ville','annee']]
+        num_rows = max(df_year.classement)
+        
+        df_agg= df_year.groupby(['specialite','ville','annee']).max()
+        df_agg = df_agg.reset_index(level=['specialite','ville','annee'])
+
+        df_agg["classement"] = pd.to_numeric(df_agg["classement"], downcast="float")
+        df_agg["classement"]= df_agg["classement"].divide(num_rows)
+        
+        df_final= df_final.append(df_agg)
+    st.write(df_final)
+    return df_final
+
+
+def show_column_values(column):
+    list_of_years = range(2010,2021)
+
+    if column =="ville":
+        df = pd.DataFrame(index=range(28),columns=list_of_years)
+        for year in list_of_years:
+            df_year = pd.read_csv(f'data/1_cleaned/resultats_{year}_clean.csv', index_col=0)
+            list_of_specialite = sorted(df_year.ville.unique())
+            df[year]= list_of_specialite
+        st.write(df)
+
+    elif column=="specialite":
+        df = pd.DataFrame(index=range(44),columns=list_of_years)
+        for year in list_of_years:
+            df_year = pd.read_csv(f'data/1_cleaned/resultats_{year}_clean.csv', index_col=0)
+            list_of_specialite = sorted(df_year.specialite.unique())
+            if len(list_of_specialite)<40:
+                list_of_specialite.extend([1,1,1,1,1,1,1,1,1,1,1,1,1,1])
+                #Before 2016 there was only 29 specialite, we add placeholders in order to come up to 43
+            df[year]= list_of_specialite
+        st.write(df)
+
+    else:
+        st.write("This function only works for cities and specialite ;-)")
 
 
 def draw_heat_map(df):

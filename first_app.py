@@ -7,53 +7,48 @@ import utilities
 import matplotlib
 import matplotlib.pyplot as plt
 
+#Visuels
+#Main Panel
 st.title('ECN Results Analysis')
+
+graph_selection = st.selectbox(
+    "Choissisez un graphique :",
+    ("Carte Thermique ", "Boites à Moustaches", "Résulats par Ville à travers le temps","Résulats par Spécialité à travers le temps")
+)
+
+annee_selection = st.slider('Plage de date',min_value=2010,max_value=2020,value=(2010, 2020))
+
+#st.checkbox("Filtre par Ville",)
+
+if st.checkbox('Show raw data'):
+    st.subheader('Raw data')
+    st.write(data)
+
+#Side Panel
+st.sidebar.title('Contexte')
+
+st.sidebar.write('Aux cours des études de Médecine française, les élèves de tous les pays se mesurent les uns aux autres dans un concours national à la fin de la 6ème\
+    : l\'ECN. A la suite de ce concours, les élèves choissisent une ville et une spécialité dans l\'ordre des résultats. \
+        Ce projet essaie de faciliter la compréhension des résultats des 10 dernières années intuitivement.')
+
+
+language = st.sidebar.selectbox(
+    "Selectionnez une langue",
+    ("Français", "English")
+)
+
 
 
 #Step 1- Make sure Input file is good 
 #df = utilities.find_unclean_input(2010)
 
-#Step 2 Save File
-df = utilities.raw_to_cleaned(2010)
-#st.write(df)
+#Step 2- Trasnform Raw data to clean data
+#df = utilities.raw_to_cleaned(2010)
 
-
-"""
-#Step 3 - Find Specialities for each year 
-list_of_years = range(2010,2021)
-list_of_placeholders = [1,1,1,1,1,1,1,1,1,1,1,1,1]
-df = pd.DataFrame(index=range(44),columns=list_of_years)
-st.write(df)
-for year in list_of_years:
-    df_year = pd.read_csv(f'data/1_cleaned/resultats_{year}_clean.csv', index_col=0)
-    #st.write(df)
-    list_of_specialite = sorted(df_year.specialite.unique())
-    if len(list_of_specialite)<40:
-        list_of_specialite.extend([1,1,1,1,1,1,1,1,1,1,1,1,1,1])
-    #st.write(list_of_specialite)
-    df[year]= list_of_specialite
-    #st.write(type(list_of_specialite)) 
-    st.write(year)
-    #st.write(df)
-
-st.write(df)
-"""
-
-#Step 4 - Find Ville for each year 
-list_of_years = range(2010,2021)
-df = pd.DataFrame(index=range(28),columns=list_of_years)
-st.write(df)
-for year in list_of_years:
-    df_year = pd.read_csv(f'data/1_cleaned/resultats_{year}_clean.csv', index_col=0)
-    #st.write(df)
-    list_of_specialite = sorted(df_year.ville.unique())
-    #st.write(list_of_specialite)
-    df[year]= list_of_specialite
-    #st.write(type(list_of_specialite)) 
-    #st.write(year)
-    #st.write(df)
-
-st.write(df)
+#Step 3- Inspect Clean Data to homogenize it. Especially Ville and Specialite
+#df = utilities.show_column_values("specialite")
+df_final= utilities.cleaned_to_aggregates_latest_spot()
+df_final.to_csv(f'data/2_aggregates/agg_latest_spot.csv', index=True)
 
 #Part 2 - Use CSV
 #df = pd.read_csv('trd_files/trd_resultats_2010_11.csv', index_col=0)
