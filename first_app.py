@@ -7,7 +7,13 @@ import utilities
 import matplotlib
 import matplotlib.pyplot as plt
 
-#Visuels
+df = pd.read_csv('data/2_aggregates/agg_latest_spot.csv', index_col=0)
+all_ville = df.ville.unique().tolist()
+all_specialite = df.specialite.unique().tolist()
+liste_ville = all_ville
+liste_specialite = all_specialite
+
+### Visuels ###
 #Main Panel
 st.title('ECN Results Analysis')
 
@@ -18,11 +24,18 @@ graph_selection = st.selectbox(
 
 annee_selection = st.slider('Plage de date',min_value=2010,max_value=2020,value=(2010, 2020))
 
-#st.checkbox("Filtre par Ville",)
+filtreVille_bool = st.radio('Filtre par Ville', ['Toutes les villes','Appliquer un filtre'], index = 0)
 
-if st.checkbox('Show raw data'):
-    st.subheader('Raw data')
-    st.write(data)
+if filtreVille_bool == "Appliquer un filtre":
+    liste_ville = st.multiselect('Selectionnez les villes que vous souhaitez garder:',options=all_ville, default=all_ville)
+
+
+filtreSpecialite_bool = st.radio('Filtre par Spécialite', ['Toutes les spécialites','Appliquer un filtre'], index = 0)
+
+if filtreSpecialite_bool == "Appliquer un filtre":
+    liste_specialite = st.multiselect('Selectionnez les spécialités que vous souhaitez garder:',options=all_specialite, default=all_specialite)
+
+
 
 #Side Panel
 st.sidebar.title('Contexte')
@@ -37,28 +50,23 @@ language = st.sidebar.selectbox(
     ("Français", "English")
 )
 
+#######
 
 
 #Step 1- Make sure Input file is good 
 #df = utilities.find_unclean_input(2010)
 
 #Step 2- Trasnform Raw data to clean data
-#df = utilities.raw_to_cleaned(2010)
+#for year in range(2010,2021):
+#    st.write(year)
+#    utilities.raw_to_cleaned(year)
 
 #Step 3- Inspect Clean Data to homogenize it. Especially Ville and Specialite
 #df = utilities.show_column_values("specialite")
-df_final= utilities.cleaned_to_aggregates_latest_spot()
-df_final.to_csv(f'data/2_aggregates/agg_latest_spot.csv', index=True)
+#df_final= utilities.cleaned_to_aggregates_latest_spot()
+#df_final.to_csv(f'data/2_aggregates/agg_latest_spot.csv', index=True)
 
-#Part 2 - Use CSV
-#df = pd.read_csv('trd_files/trd_resultats_2010_11.csv', index_col=0)
-#df_rfd_01 = utilities.create_df_lastest_spot(df)
+### Show chart based on inputs ###
 
-#t.write(df_rfd_01)
-#st.table(df_rfd_01)
-#list(df.index.values) 
-#list(df.columns) 
-
-#df_rfd_01_np = df_rfd_01.to_numpy()
-#st.write(type(df_rfd_01_np))
-
+with st.beta_expander("See explanation"):
+    st.write("The chart above shows some numbers I picked for you. I rolled actual dice for these, so they're *guaranteed* to be random.")
