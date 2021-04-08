@@ -11,7 +11,6 @@ import utilities
 #df_final = pd.DataFrame(columns=['title', 'lastName', 'firstNames','dateOfBirth','spécialité','ville'])
 
 
-
 def clean_data(df,annee):
     if annee < 2019:
         df_final = pd.DataFrame(columns=['classement','title', 'firstNames','dateOfBirth','specialite','ville','annee'])
@@ -80,7 +79,7 @@ def clean_data(df,annee):
 
     df_final["ville"]= df_final["ville"].str.rstrip(".")
     df_final["ville"]= df_final.ville.str.replace("CHU d('|e )|Hospices Civils de |l'Assistance Publique(-| des )Hôpitaux de ", "", regex=True)
-    df_final["ville"]= df_final.ville.str.replace("(o|O)céan( |-)|la Réunion", "La Réunion", regex=True)
+    df_final["ville"]= df_final.ville.str.replace("(o|O)céan( |-)Indien|la Réunion", "La Réunion", regex=True)
     df_final["ville"]= df_final.ville.str.replace("Ile-de-France|l'AP-HP", "Paris", regex=True)
     df_final["ville"]= df_final.ville.str.replace("Aix-Marseille|l'AP-HM", "Marseille", regex=True)
     df_final["ville"]= df_final.ville.str.replace("(l|L)a Martinique(| )/(| )Pointe-à-Pitre|Antilles-Guyane", "Martinique/Pointe-à-Pitre", regex=True)
@@ -137,26 +136,6 @@ def create_df_lastest_spot(df):
     return df_results
 
 
-def cleaned_to_aggregates_latest_spot():
-    df_final = pd.DataFrame(columns=['classement','specialite','ville','annee'])
-    list_of_years = range(2010,2021)
-    #list_of_years = range(2010,2013)
-
-    for year in list_of_years:
-        df_year = pd.read_csv(f'data/1_cleaned/resultats_{year}_clean.csv', index_col=0)
-        df_year = df_year[['classement','specialite','ville','annee']]
-        num_rows = max(df_year.classement)
-        
-        df_agg= df_year.groupby(['specialite','ville','annee']).max()
-        df_agg = df_agg.reset_index(level=['specialite','ville','annee'])
-
-        df_agg["classement"] = pd.to_numeric(df_agg["classement"], downcast="float")
-        df_agg["classement"]= df_agg["classement"].divide(num_rows)
-        
-        df_final= df_final.append(df_agg)
-    st.write(df_final)
-    return df_final
-
 
 def show_column_values(column):
     list_of_years = range(2010,2021)
@@ -182,7 +161,6 @@ def show_column_values(column):
 
     else:
         st.write("This function only works for cities and specialite ;-)")
-
 
 def draw_heat_map(df):
     villes_list = sorted(df.ville.unique().tolist())
@@ -222,3 +200,50 @@ def draw_heat_map(df):
     #plt.show()
     #plt.savefig("test.png")
     st.pyplot(fig)
+
+# FUNCTIONS TO GO TO TRUSTED
+def cleaned_to_aggregates_latest_spot():
+    df_final = pd.DataFrame(columns=['classement','specialite','ville','annee'])
+    list_of_years = range(2010,2021)
+    #list_of_years = range(2010,2013)
+
+    for year in list_of_years:
+        df_year = pd.read_csv(f'data/1_cleaned/resultats_{year}_clean.csv', index_col=0)
+        df_year = df_year[['classement','specialite','ville','annee']]
+        num_rows = max(df_year.classement)
+        
+        df_agg= df_year.groupby(['specialite','ville','annee']).max()
+        df_agg = df_agg.reset_index(level=['specialite','ville','annee'])
+
+        #Transform Classement to have a number between 0, best, to 1, worst. Because the number of candidates changes each year
+        df_agg["classement"] = pd.to_numeric(df_agg["classement"], downcast="float")
+        df_agg["classement"]= df_agg["classement"].divide(num_rows)
+
+        #Clean Spécialité (take out leading white space and Capitalize first word)
+        df_agg["specialite"]= df_agg["specialite"].str.lstrip(" ")
+        df_agg["specialite"]= df_agg["specialite"].str.capitalize()
+        
+        df_final= df_final.append(df_agg)
+    df_final.to_csv(f'data/2_aggregates/agg_latest_spot.csv', index=True)
+    return df_final
+
+def cleaned_to_full_data():
+    df_final = pd.DataFrame(columns=['classement','specialite','ville','annee'])
+    list_of_years = range(2010,2021)
+
+    for year in list_of_years:
+        df_year = pd.read_csv(f'data/1_cleaned/resultats_{year}_clean.csv', index_col=0)
+        df_year = df_year[['classement','specialite','ville','annee']]
+        num_rows = max(df_year.classement)
+        
+        #Transform Classement to have a number between 0, best, to 1, worst. Because the number of candidates changes each year
+        df_year["classement"] = pd.to_numeric(df_year["classement"], downcast="float")
+        df_year["classement"]= df_year["classement"].divide(num_rows)
+
+        #Clean Spécialité (take out leading white space and Capitalize first word)
+        df_year["specialite"]= df_year["specialite"].str.lstrip(" ")
+        df_year["specialite"]= df_year["specialite"].str.capitalize()
+        
+        df_final= df_final.append(df_year)
+    df_final.to_csv(f'data/2_aggregates/full.csv', index=True)
+    return df_final

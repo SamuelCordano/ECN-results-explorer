@@ -7,22 +7,26 @@ import utilities
 import matplotlib
 import matplotlib.pyplot as plt
 
+import graphs
+
 df = pd.read_csv('data/2_aggregates/agg_latest_spot.csv', index_col=0)
-all_ville = df.ville.unique().tolist()
-all_specialite = df.specialite.unique().tolist()
+all_ville = sorted(df.ville.unique().tolist())
+all_specialite = sorted(df.specialite.unique().tolist())
 liste_ville = all_ville
 liste_specialite = all_specialite
 
-### Visuels ###
+### Visuels ### 
 #Main Panel
 st.title('ECN Results Analysis')
 
 graph_selection = st.selectbox(
     "Choissisez un graphique :",
-    ("Carte Thermique ", "Boites à Moustaches", "Résulats par Ville à travers le temps","Résulats par Spécialité à travers le temps")
+    ("Carte Thermique", "Boites à Moustaches", "Résulats par Ville à travers le temps","Résulats par Spécialité à travers le temps",
+    "Lignes de crêtes par Ville","Lignes de crêtes par Spécialité")
 )
 
 annee_selection = st.slider('Plage de date',min_value=2010,max_value=2020,value=(2010, 2020))
+liste_annee = list(range(annee_selection[0],(annee_selection[1]+1)))
 
 filtreVille_bool = st.radio('Filtre par Ville', ['Toutes les villes','Appliquer un filtre'], index = 0)
 
@@ -48,15 +52,22 @@ st.sidebar.write('Aux cours des études de Médecine française, les élèves de
 language = st.sidebar.selectbox(
     "Selectionnez une langue",
     ("Français", "English")
-)
+) 
 
 #######
+#st.write(liste_ville)
+#st.write(liste_specialite)
+#st.write(annee_selection)
+graphs.showgraph(graph_selection, liste_annee, liste_ville, liste_specialite)
+#graphs.checkFilter(graph_selection, liste_annee, liste_ville, liste_specialite)
+
+
 
 
 #Step 1- Make sure Input file is good 
 #df = utilities.find_unclean_input(2010)
 
-#Step 2- Trasnform Raw data to clean data
+#Step 2- Transform Raw data to clean data
 #for year in range(2010,2021):
 #    st.write(year)
 #    utilities.raw_to_cleaned(year)
@@ -64,8 +75,8 @@ language = st.sidebar.selectbox(
 #Step 3- Inspect Clean Data to homogenize it. Especially Ville and Specialite
 #df = utilities.show_column_values("specialite")
 #df_final= utilities.cleaned_to_aggregates_latest_spot()
-#df_final.to_csv(f'data/2_aggregates/agg_latest_spot.csv', index=True)
-
+#df_final= utilities.cleaned_to_full_data()
+#st.write(df_final)
 ### Show chart based on inputs ###
 
 with st.beta_expander("See explanation"):
