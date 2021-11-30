@@ -4,7 +4,11 @@ ECN Results Explorer is a Web App that helps you analyze and understand the resu
 
 ## Tools
 
-This project uses the framework Streamlit and the libraries plotly, matplotlib and joylib to create cool graphs
+This project uses Python and the following libraries: 
+- Streamlit
+- plotly
+- matplotlib
+- joylib
 
 ## Contributing
 
